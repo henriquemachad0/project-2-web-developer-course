@@ -29,6 +29,16 @@ header .container {
 
 header .logo {
     display: inline-block;
+    font-size: 27px;
+}
+
+header .logo .blue-dot {
+    background-color: #3E50E5;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
 }
 
 header nav {
