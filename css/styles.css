@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Heebo', sans-serif;
     min-height: 3000px;
+    padding-top: 80px;
 }
 
 .container {
@@ -38,6 +39,7 @@ header .logo .blue-dot {
     height: 10px;
     display: inline-block;
     vertical-align: middle;
+    margin: 0 4px;
     border-radius: 6px;
 }
 
@@ -65,4 +67,9 @@ header nav ul li a {
 
 header nav ul li:last-of-type {
     margin-right: 0;
+}
+
+section .hero img {
+    width: 100%;
+    height: auto;
 }
