@@ -155,7 +155,6 @@ section.best-sellers hr {
 
 section.best-sellers .product-slider {
     margin-top: 76px;
-
 }
 
 section.best-sellers .container {
@@ -175,4 +174,45 @@ section.best-sellers .product-slider .product {
 
 section.best-sellers .product-slider .product-info {
     margin-top: 50px;
+}
+
+section.best-sellers .product-slider .product-info .categorias {
+    color: #3e50e5;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+section.best-sellers .product-slider .product-info .title {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 6px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+section.best-sellers .product-slider .product-info .price {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+section.best-sellers .product-slider .product-info button {
+    height: 50px;
+    width: 219.5px;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 220px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
 }
