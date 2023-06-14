@@ -133,3 +133,22 @@ section.hero img {
     border: none;
     text-transform: uppercase;
 }
+
+section.best-sellers {
+    padding-top: 80px;
+}
+
+section.best-sellers h2 {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+}
+
+section.best-sellers hr {
+    border: none;
+    border-top: 5px solid #67F11D;
+    width: 66px;
+}
