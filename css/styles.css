@@ -152,3 +152,17 @@ section.best-sellers hr {
     border-top: 5px solid #67F11D;
     width: 66px;
 }
+
+section.best-sellers .product-slider {}
+
+section.best-sellers .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.best-sellers .product-slider .product {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 33%;
+    text-align: center;
+}
