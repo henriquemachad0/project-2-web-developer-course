@@ -153,11 +153,15 @@ section.best-sellers hr {
     width: 66px;
 }
 
-section.best-sellers .product-slider {}
+section.best-sellers .product-slider {
+    margin-top: 76px;
+
+}
 
 section.best-sellers .container {
     display: flex;
     justify-content: space-around;
+    padding: 0 8px;
 }
 
 section.best-sellers .product-slider .product {
@@ -165,4 +169,10 @@ section.best-sellers .product-slider .product {
     border: 1px solid #ddd;
     width: 33%;
     text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+}
+
+section.best-sellers .product-slider .product-info {
+    margin-top: 50px;
 }
