@@ -19,6 +19,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 header .container {
@@ -69,7 +70,65 @@ header nav ul li:last-of-type {
     margin-right: 0;
 }
 
-section .hero img {
+section.hero {
+    position: relative;
+}
+
+section.hero img {
     width: 100%;
     height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-content .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero-content h1 {
+    max-width: 440px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 1.25px;
+    line-height: 56px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.hero-content p {
+    max-width: 518px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.hero-content button {
+    height: 50px;
+    width: 220px;
+    max-width: 100%;
+    border-radius: 92px;
+    background-color: #3e50e5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
 }
