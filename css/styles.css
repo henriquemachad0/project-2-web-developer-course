@@ -170,6 +170,30 @@ section.best-sellers .product-slider .product {
     text-align: center;
     margin: 0 8px;
     padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.best-sellers .product-slider .product img {
+    max-width: 100%;
+}
+
+section.best-sellers .product-slider .product.new::before {
+    content: "New";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px 15px;
+    border-radius: 40px;
+    background-color: #EC1C1C;
 }
 
 section.best-sellers .product-slider .product-info {
