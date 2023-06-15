@@ -65,6 +65,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a:hover {
+    color: #3E50E5;
+}
+
 header nav ul li:last-of-type {
     margin-right: 0;
 }
@@ -131,6 +135,13 @@ section.hero img {
     text-align: center;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #fff;
+    color: #3e50e5;
+    border: 1px solid #3e50e5;
 }
 
 section.best-sellers {
@@ -173,6 +184,7 @@ section.best-sellers .product-slider .product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 section.best-sellers .product-slider .product img {
@@ -253,6 +265,12 @@ section.best-sellers .product-slider .product-info button {
     line-height: 24px;
 }
 
+section.best-sellers .product-slider .product:hover .product-info button {
+    background-color: #3e50e5;
+    border: 1px solid #3e50e5;
+    color: white;
+}
+
 section.newsletter {
     background-color: rgba(200, 200, 200, 0.18);
     max-width: 955px;
@@ -290,6 +308,7 @@ section.newsletter input {
     border-radius: 60px 0 0 60px;
     box-sizing: border-box;
     border: 1px solid #3E3E3E;
+    border-right: none;
     font-family: Heebo;
     font-size: 14px;
     letter-spacing: 0.35px;
@@ -310,6 +329,14 @@ section.newsletter button {
     letter-spacing: 0.35px;
     line-height: 21px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+section.newsletter button:hover {
+    background-color: #fff;
+    border: 1px solid #3E50E5;
+    color: #3E50E5;
+    border: 1px solid #3E3E3E;
 }
 
 footer .bottom-nav {
@@ -336,6 +363,10 @@ footer .bottom-nav ul li a {
     margin-bottom: 10px;
     text-decoration: none;
     display: block;
+}
+
+footer .bottom-nav ul li a:hover {
+    color: #3E50E5;
 }
 
 footer .bottom-nav ul .list-title {
