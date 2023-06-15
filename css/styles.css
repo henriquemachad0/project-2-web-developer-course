@@ -253,3 +253,11 @@ section.best-sellers .product-slider .product-info button {
     letter-spacing: 0.4px;
     line-height: 24px;
 }
+
+section.newsletter {
+    background-color: rgba(200, 200, 200, 0.18);
+    max-width: 955px;
+    text-align: center;
+    padding: 72px 0;
+    margin: 80px auto;
+}
