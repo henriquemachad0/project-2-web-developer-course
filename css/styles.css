@@ -261,3 +261,54 @@ section.newsletter {
     padding: 72px 0;
     margin: 80px auto;
 }
+
+section.newsletter h3 {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section.newsletter p {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section.newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+section.newsletter input {
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
+    border-radius: 60px 0 0 60px;
+    box-sizing: border-box;
+    border: 1px solid #3E3E3E;
+    font-family: Heebo;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    padding-left: 22px;
+}
+
+section.newsletter button {
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    box-sizing: border-box;
+    border-radius: 0 60px 60px 0;
+    background-color: #3E50E5;
+    border: 1px solid #3E50E5;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
