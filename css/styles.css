@@ -312,13 +312,40 @@ section.newsletter button {
     text-transform: uppercase;
 }
 
-footer {
-    text-align: center;
-}
-
 footer .bottom-nav {
     padding: 60px 0;
     background-color: #3e3e3e;
+}
+
+footer .bottom-nav .container {
+    max-width: 955px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-nav ul {
+    list-style: none;
+}
+
+footer .bottom-nav ul li a {
+    color: #e0e0e0;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+footer .bottom-nav ul .list-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff
 }
 
 footer .copyright-text {
