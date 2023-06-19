@@ -58,6 +58,16 @@ header nav ul li {
     display: inline-block;
 }
 
+header nav ul li.menu-icon {
+    display: none;
+}
+
+header nav ul li.menu-icon img {
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+}
+
 header nav ul li a {
     color: #3e3e3e;
     font-size: 15px;
@@ -399,6 +409,15 @@ footer .copyright-text {
     .container {
         width: 1180px;
     }
+
+    body {
+
+        padding-top: 70px;
+    }
+
+    header {
+        height: 70px;
+    }
 }
 
 /* End of Design for Small Desktop */
@@ -408,13 +427,32 @@ footer .copyright-text {
     .container {
         max-width: 92%;
     }
+
+    header .logo {
+        font-size: 24px;
+    }
+
+    header nav ul li {
+        display: none;
+    }
+
+    header nav ul li.menu-icon {
+        display: inline-block;
+    }
 }
 
 /* End of Design for Tablets */
 
 /* Start of Design for Mobile Phones */
 @media screen and (max-width: 576px) {
-    .container {}
+    header .logo {
+        font-size: 18px;
+    }
+
+    header .logo .blue-dot {
+        width: 7px;
+        height: 7px;
+    }
 }
 
 /* End of Design for Mobile Phones */
