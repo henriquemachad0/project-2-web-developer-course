@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-    max-width: 1180px;
+    width: 1440px;
+    max-width: 90%;
     margin: auto;
     padding: 0 16px;
 }
@@ -390,3 +391,30 @@ footer .copyright-text {
     letter-spacing: 0.4px;
     line-height: 22px;
 }
+
+/* CSS MEDIA QUERIES */
+
+/* Start of Design for Small Desktop */
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1180px;
+    }
+}
+
+/* End of Design for Small Desktop */
+
+/* Start of Design for Tablets */
+@media screen and (max-width: 960px) {
+    .container {
+        max-width: 92%;
+    }
+}
+
+/* End of Design for Tablets */
+
+/* Start of Design for Mobile Phones */
+@media screen and (max-width: 576px) {
+    .container {}
+}
+
+/* End of Design for Mobile Phones */
