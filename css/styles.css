@@ -753,10 +753,10 @@ footer .copyright-text {
     }
 
     section.best-sellers h2 {
-        font-size: 24px;
+        font-size: 36px;
         letter-spacing: 0.6px;
         line-height: 38px;
-        margin: 0 0 14px 0;
+        margin: 0 0 16px 0;
     }
 
     section.best-sellers hr {
@@ -800,9 +800,31 @@ footer .copyright-text {
 
     section.newsletter {
         padding: 44px 0;
-        margin: 100px auto;
+        margin: 60px auto;
     }
 
+    section.newsletter form input {
+        max-width: 65%;
+    }
+
+    section.newsletter form button {
+        max-width: 35%;
+
+    }
+
+    footer .bottom-nav .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .bottom-nav ul {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    footer .bottom-nav ul:last-of-type {
+        margin-bottom: 0;
+    }
 
 
 }
