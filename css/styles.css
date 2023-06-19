@@ -41,6 +41,11 @@ header .logo {
     font-size: 27px;
 }
 
+header .logo a {
+    text-decoration: none;
+    color: #000;
+}
+
 header .logo .blue-dot {
     background-color: #3E50E5;
     width: 10px;
